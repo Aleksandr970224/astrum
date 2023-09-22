@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-first {
+  height: 892px;
+  background-image: url('./img/bg-main-first.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper-shadow {
+  position: relative;
+  height: 100%;
+}
+
+.wrapper-shadow #left {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: .6;
+}
+
+.wrapper-shadow #right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  opacity: .6;
+}
+
+.wrapper-shadow #bottom {
+  position: absolute;
+  bottom: 0;
+  opacity: .6;
+}
+
+.wrapper-shadow #blue-bottom-first {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.wrapper-person {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.wrapper-person .box {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logo {
+  position: relative;
+  z-index: 22;
+}
+
+#glow {
+  position: absolute;
+  opacity: .2;
+}
+
+#boxes {
+  position: relative;
+  bottom: 70px;
+}
+
+.wrapper-person .box h1 {
+  position: relative;
+  bottom: 90px;
+  color: #FFF;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.wrapper-person .box p {
+  position: relative;
+  bottom: 70px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.section-second {
+  height: 1024px;
+  background-image: url('./img/bg-main-second.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+#blue-bottom-second {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.wrapper-dog {
+  background-image: url('./img/ellipse-second.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 220px;
+  width: 680px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper-table {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-right: 280px;
+}
+
+.wrapper-table h2 {
+  color: #416DF4;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.wrapepr-desc-table {
+  align-self: flex-end;
+  display: flex;
+  gap: 10px;
+  padding: 35px 0 10px;
+}
+
+
+table {
+  color: #fff;
+  width: 632px;
+  border-collapse: collapse;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.desc-table {
+  color: #671D00;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 1px solid rgba(103, 29, 0, 0.48);
+  padding: 3px 8px;
+}
+
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px 5px 5px;
+  border: 1px solid rgba(103, 29, 0, 0.48);
+  margin-bottom: 1px;
+}
+
+tr td:nth-child(2) {
+  width: 230px;
+  margin-left: 20px;
+}
+
+tr td:nth-child(3) {
+  width: 27px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+}
+
+tr td:nth-child(4) {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  width: 72px;
+}
+
+
+.box-dog-buy {
+  position: relative;
+}
+
+.box-dog-buy div {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  right: 200px;
+  bottom: 60px;
+}
+
+.box-dog-buy h3 {
+  display: inline-block;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.box-dog-buy button {
+  border: none;
+  outline: none;
+  width: 180px;
+  border-radius: 7px;
+  background-color: #FCFF00;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 12px 15px;
+  line-height: normal;
+}
